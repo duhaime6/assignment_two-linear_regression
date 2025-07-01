@@ -90,7 +90,7 @@ print(p)
 
 # Print regression statistics
 cat("\nLinear Regression Results:\n")
-cat(sprintf("Slope = %.4f\n", slope))
-cat(sprintf("y-intercept = %.4f\n", intercept))
+cat(sprintf("Slope = %.2f\n", slope))
+cat(sprintf("y-intercept = %.2f\n", intercept))
 cat(sprintf("R-squared = %.3f\n", r_squared))
 cat(sprintf("MSE = %.2f\n", mse))
